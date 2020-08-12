@@ -28,7 +28,7 @@ class BlogController extends Controller
     }
 
     /**
-     * 使用了渴求式加载获取指定文章标签信息
+     * 使用了渴求式加载获取指定文章标签信息（渴求式加载有效减少了必须要被执行用以加载模型关联的 SQL 查询）
      * 渴求式加载=>https://www.cnblogs.com/lxwphp/p/10727259.html
      * 5.7 模型关联关系 https://xueyuanjun.com/post/9584.html
      */
